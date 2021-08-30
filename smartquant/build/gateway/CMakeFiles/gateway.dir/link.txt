@@ -1,0 +1,2 @@
+/bin/ar qc libgateway.a  CMakeFiles/gateway.dir/ctp/ctp_gateway.o CMakeFiles/gateway.dir/ctp/ctpmd.o CMakeFiles/gateway.dir/ctp/ctptd.o CMakeFiles/gateway.dir/stock_level2/l2_gateway.o CMakeFiles/gateway.dir/stock_level2/l2md.o CMakeFiles/gateway.dir/stock_level2/l2td.o
+/bin/ranlib libgateway.a

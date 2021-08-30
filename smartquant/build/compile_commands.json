@@ -1,0 +1,67 @@
+[
+{
+  "directory": "/home/bohr/smartquant/smartquant/build/algo",
+  "command": "/bin/x86_64-linux-gnu-g++-8    -g   -o CMakeFiles/algo.dir/src/algo.o -c /home/bohr/smartquant/smartquant/algo/src/algo.cpp",
+  "file": "/home/bohr/smartquant/smartquant/algo/src/algo.cpp"
+},
+{
+  "directory": "/home/bohr/smartquant/smartquant/build/algo",
+  "command": "/bin/x86_64-linux-gnu-g++-8    -g   -o CMakeFiles/algo.dir/src/backtesting.o -c /home/bohr/smartquant/smartquant/algo/src/backtesting.cpp",
+  "file": "/home/bohr/smartquant/smartquant/algo/src/backtesting.cpp"
+},
+{
+  "directory": "/home/bohr/smartquant/smartquant/build/algo",
+  "command": "/bin/x86_64-linux-gnu-g++-8    -g   -o CMakeFiles/algo.dir/src/instrument.o -c /home/bohr/smartquant/smartquant/algo/src/instrument.cpp",
+  "file": "/home/bohr/smartquant/smartquant/algo/src/instrument.cpp"
+},
+{
+  "directory": "/home/bohr/smartquant/smartquant/build/algo",
+  "command": "/bin/x86_64-linux-gnu-g++-8    -g   -o CMakeFiles/algo.dir/src/smartorder.o -c /home/bohr/smartquant/smartquant/algo/src/smartorder.cpp",
+  "file": "/home/bohr/smartquant/smartquant/algo/src/smartorder.cpp"
+},
+{
+  "directory": "/home/bohr/smartquant/smartquant/build/algo",
+  "command": "/bin/x86_64-linux-gnu-g++-8    -g   -o CMakeFiles/algo.dir/src/template.o -c /home/bohr/smartquant/smartquant/algo/src/template.cpp",
+  "file": "/home/bohr/smartquant/smartquant/algo/src/template.cpp"
+},
+{
+  "directory": "/home/bohr/smartquant/smartquant/build/event",
+  "command": "/bin/x86_64-linux-gnu-g++-8    -g   -o CMakeFiles/event.dir/src/event.o -c /home/bohr/smartquant/smartquant/event/src/event.cpp",
+  "file": "/home/bohr/smartquant/smartquant/event/src/event.cpp"
+},
+{
+  "directory": "/home/bohr/smartquant/smartquant/build/gateway",
+  "command": "/bin/x86_64-linux-gnu-g++-8    -g   -o CMakeFiles/gateway.dir/ctp/ctp_gateway.o -c /home/bohr/smartquant/smartquant/gateway/ctp/ctp_gateway.cpp",
+  "file": "/home/bohr/smartquant/smartquant/gateway/ctp/ctp_gateway.cpp"
+},
+{
+  "directory": "/home/bohr/smartquant/smartquant/build/gateway",
+  "command": "/bin/x86_64-linux-gnu-g++-8    -g   -o CMakeFiles/gateway.dir/ctp/ctpmd.o -c /home/bohr/smartquant/smartquant/gateway/ctp/ctpmd.cpp",
+  "file": "/home/bohr/smartquant/smartquant/gateway/ctp/ctpmd.cpp"
+},
+{
+  "directory": "/home/bohr/smartquant/smartquant/build/gateway",
+  "command": "/bin/x86_64-linux-gnu-g++-8    -g   -o CMakeFiles/gateway.dir/ctp/ctptd.o -c /home/bohr/smartquant/smartquant/gateway/ctp/ctptd.cpp",
+  "file": "/home/bohr/smartquant/smartquant/gateway/ctp/ctptd.cpp"
+},
+{
+  "directory": "/home/bohr/smartquant/smartquant/build/gateway",
+  "command": "/bin/x86_64-linux-gnu-g++-8    -g   -o CMakeFiles/gateway.dir/stock_level2/l2_gateway.o -c /home/bohr/smartquant/smartquant/gateway/stock_level2/l2_gateway.cpp",
+  "file": "/home/bohr/smartquant/smartquant/gateway/stock_level2/l2_gateway.cpp"
+},
+{
+  "directory": "/home/bohr/smartquant/smartquant/build/gateway",
+  "command": "/bin/x86_64-linux-gnu-g++-8    -g   -o CMakeFiles/gateway.dir/stock_level2/l2md.o -c /home/bohr/smartquant/smartquant/gateway/stock_level2/l2md.cpp",
+  "file": "/home/bohr/smartquant/smartquant/gateway/stock_level2/l2md.cpp"
+},
+{
+  "directory": "/home/bohr/smartquant/smartquant/build/gateway",
+  "command": "/bin/x86_64-linux-gnu-g++-8    -g   -o CMakeFiles/gateway.dir/stock_level2/l2td.o -c /home/bohr/smartquant/smartquant/gateway/stock_level2/l2td.cpp",
+  "file": "/home/bohr/smartquant/smartquant/gateway/stock_level2/l2td.cpp"
+},
+{
+  "directory": "/home/bohr/smartquant/smartquant/build/strategy",
+  "command": "/bin/x86_64-linux-gnu-g++-8    -g   -o CMakeFiles/IndexArb.dir/IndexArb.o -c /home/bohr/smartquant/smartquant/strategy/IndexArb.cpp",
+  "file": "/home/bohr/smartquant/smartquant/strategy/IndexArb.cpp"
+}
+]

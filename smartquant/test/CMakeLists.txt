@@ -1,0 +1,1 @@
+add_executable(test ./test.cpp /home/bohr/smartquant/smartquant/utils.cpp)

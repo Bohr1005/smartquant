@@ -1,0 +1,126 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "algo",
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "algo",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "event",
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "event",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "gateway",
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "gateway",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "strategy",
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "strategy",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "IndexArb::@241ee8dc02c6c148167d",
+					"jsonFile" : "target-IndexArb-Debug-53fdfea55e803f1a94e2.json",
+					"name" : "IndexArb",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "algo::@bb83f9c1dd657cfdedea",
+					"jsonFile" : "target-algo-Debug-fa8caa32cf5dcfa8588b.json",
+					"name" : "algo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "event::@544e442ad2294d65fe07",
+					"jsonFile" : "target-event-Debug-79a6a1310793ba4a59d1.json",
+					"name" : "event",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gateway::@222675d909a03fe55723",
+					"jsonFile" : "target-gateway-Debug-c9c04fcfe649692606f5.json",
+					"name" : "gateway",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/bohr/smartquant/smartquant/build",
+		"source" : "/home/bohr/smartquant/smartquant"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

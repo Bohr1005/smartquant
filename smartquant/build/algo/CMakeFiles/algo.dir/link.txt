@@ -1,0 +1,2 @@
+/bin/ar qc libalgo.a  CMakeFiles/algo.dir/src/algo.o CMakeFiles/algo.dir/src/backtesting.o CMakeFiles/algo.dir/src/instrument.o CMakeFiles/algo.dir/src/smartorder.o CMakeFiles/algo.dir/src/template.o
+/bin/ranlib libalgo.a

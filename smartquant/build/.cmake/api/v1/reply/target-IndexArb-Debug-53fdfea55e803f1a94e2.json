@@ -1,0 +1,172 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "strategy/IndexArb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"strategy/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g  "
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "algo::@bb83f9c1dd657cfdedea"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "event::@544e442ad2294d65fe07"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "gateway::@222675d909a03fe55723"
+		}
+	],
+	"id" : "IndexArb::@241ee8dc02c6c148167d",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-rdynamic",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-L/home/bohr/smartquant/smartquant/smartquant/api/ctp",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-L/home/bohr/smartquant/smartquant/build/algo",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-L/home/bohr/smartquant/smartquant/build/event",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-L/home/bohr/smartquant/smartquant/build/gateway",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/bohr/smartquant/smartquant/smartquant/api/ctp",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../algo/libalgo.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../event/libevent.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../gateway/libgateway.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lthostmduserapi_se",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lthosttraderapi_se",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,-Bstatic",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lzmq",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,-Bdynamic",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "IndexArb",
+	"nameOnDisk" : "IndexArb",
+	"paths" : 
+	{
+		"build" : "strategy",
+		"source" : "strategy"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "strategy/IndexArb.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

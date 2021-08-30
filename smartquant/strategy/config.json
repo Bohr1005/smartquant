@@ -1,0 +1,32 @@
+{
+    "gateways":{
+        "ctp":{
+            "mkt":{
+                "username":"30501919",
+                "passwd":"ad57998973",
+                "front":"tcp://61.186.254.135:42213",
+                "broker_id":"9080",
+                "folder":"./ctp",
+                "log_path":"./log",
+                "log_level":"info",
+                "format":"[%Y-%m-%d %H:%M:%S.%f][%l] %v"
+            },
+            "trd":{
+                "username":"30501919",
+                "passwd":"ad57998973",
+                "front":"tcp://61.186.254.135:42205",
+                "broker_id":"9080",
+                "app_id":"client_bohrctp_1.0",
+                "auth_code":"XYY33OS0Z166P4HX",
+                "product_info":"",
+                "folder":"./ctp",
+                "log_path":"./log",
+                "log_level":"info",
+                "format":"[%Y-%m-%d %H:%M:%S.%f][%l] %v"
+            }
+        }
+    },
+    "strategy_config":{
+        
+    }
+}

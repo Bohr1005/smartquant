@@ -1,0 +1,9 @@
+#ifndef SMARTQUANT_DECLARE_H
+#define SMARTQUANT_DECLARE_H
+
+#define SMARTQUANT_NAMESPACE_START namespace SmartQuant {
+#define SMARTQUANT_NAMESPACE_END };
+
+#endif
+
+
