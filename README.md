@@ -1,3 +1,5 @@
+smartquant是一个事件驱动型的高频交易系统，主要用于做市和打单。这个项目主要是学习c++的时候顺便写的，花了大概两周时间，系统本身没啥特点，就是简单，单进程，也就是说交易、行情和策略是在一个进程里的。具体内部延迟也没测过，只是简单试验了一下做市，速度应该是够用的，毕竟是在本地运行的，而且是ctp的接口，就没必要太追求极致了（盛立的接口写了一半，没测试，不想写了）
+
 编译方法:在目录下运行build.sh就可以了，可选参数3个:debug,release,clean
 依赖库:
 1. 到3rd/libzmq-master下运行
@@ -12,10 +14,6 @@
    - cmake ..
    - sudo make -j4 install
 
-安装zmq主要是因为托管服务器上的全推行情需要通过socket从券商那里收全推数据然后本地合成指数，再利用zmq通知给stock_level2这个接口的OnRtnDepthMarketData函数。
-
-ICIF的策略在/strategy目录下，大致和python版本的差不多，策略的逻辑已经完整了，除了策略初始化部分还有几行没有写(主要是因为还写策略配置的json文件，python版里是直接传了一个字典进去)
-
 algo目录下主要是algo算法引擎，instrument标的、smartorder下单管理，写策略只需要用这3个东西就可以了。
 
 strategy目录下是策略模板，只有一个文件Template.h，如果想写自己的策略，只需要在这个目录下新建一个cpp文件，然后继承Template这个类就可以了(当然编译的时候需要修改一下strategy/CMakeLists.txt，可以参考indexArb的策略，只需要把indexArb.cpp换成自己的策略cpp就可以了，如果有用到第三方库也需要添加进去)。
@@ -27,5 +25,5 @@ gateway目录下的是接口，目前只写了ctp的接口，股票level2的接�
 api目录下是券商的api的头文件(券商提供)，写gateway的时候会继承里面的类。
 
 如何运行你的策略:
-在main函数里实例化一个EventEngine(/event/event.h)和一个AlgoEngine(/algo/algo.h)，然后把策略需要用到的gateway加入到AlgoEngine里(AlgoEngine::add_engine方法，需要传入接口的配置文件，参考IndexArb)，实例化你自己的策略，调用AlgoEngine::add_strategy(需要传入策略的配置文件),最后调用AlgoEngine::start()就启动了。
+在main函数里实例化一个EventEngine(/event/event.h)和一个AlgoEngine(/algo/algo.h)，然后把策略需要用到的gateway加入到AlgoEngine里(AlgoEngine::add_engine方法，需要传入接口的配置文件，参考example)，实例化你自己的策略，调用AlgoEngine::add_strategy(需要传入策略的配置文件),最后调用AlgoEngine::start()就启动了。
 
