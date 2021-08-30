@@ -1,11 +1,11 @@
 add_executable(
-    indexArb_v2_time
-    ./indexArb_v2_time.cpp
+     example
+    ./example.cpp
 )
 
 
 target_link_libraries(
-    indexArb_v2_time
+    example
     algo
     event
     gateway
